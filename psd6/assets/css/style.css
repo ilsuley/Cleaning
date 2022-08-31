@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+:root {
+    --font: 'Josefin Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css header start */
+
+header {
+    display: flex;
+    height: 45px;
+    background-color: #ecf6fe;
+}
+
+
+.text {
+    color: #2fa0ff;
+    font: 300px 15px var(--font);
+    line-height: 35px;
+    font-family: "Josefin Sans";
+}
+
+#logos i {
+    padding-left: 15px;
+
+}
+
+/* css header end */
+
+/* css section1 start */
+
+#section-body {
+    height: 870px;
+    background-image: url("/assets/img/bg.png");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: #f3faff;
+}
+
+#request button {
+    font: 400 16px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+    border: none;
+    background-color: #ffe824;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#nav-section {
+    font: 400 16px var(--font);
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+a:hover {
+    background-color: #008aff;
+}
+
+#save p {
+    font: 300 33px var(--font);
+    color: #008aff;
+    font-family: "Josefin Sans";
+}
+
+#save h1 {
+    font: 400 68px var(--font);
+    color: #13287e;
+    font-family: "Josefin Sans";
+    padding-bottom: 35px;
+}
+
+#offer button {
+    font: 400 14px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 67px;
+    border-radius: 33px;
+    background-color: #ffe824;
+    border: none;
+}
+
+/* css section1 end */
+
+/* css section2 start */
+
+#section-body1 h1 {
+    padding-top: 55px;
+    font: 400 33px var(--font);
+    color: #008aff;
+    font-family: "Josefin Sans";
+}
+
+#section-body1 p {
+    font: 300 20px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+#section-body1 img {
+    border-radius: 40% 0;
+}
+
+/* #vl {
+    width: 1px;
+    height: 866px;
+    background-color: #d8d8de;
+} */
+
+#section-body1 ul {
+    margin-left: 20px;
+}
+
+#section-body1 ul li {
+    font: 300 20px var(--font);
+    line-height: 35px;
+    color: #008aff;
+    font-family: "Josefin Sans";
+}
+
+#estimate button {
+    margin-top: 50px;
+    font: 400 14px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 60px;
+    border-radius: 33px;
+    background-color: #ffe824;
+    border: none;
+}
+
+#eclipse {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.like {
+    position: absolute;
+    bottom: 150px;
+}
+
+/* css section2 end */
+
+
+/* css section3 start */
+
+#choose {
+    font: 400 33px var(--font);
+    color: #13287e;
+    font-family: "Josefin Sans";
+    padding-bottom: 100px;
+}
+
+#us {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#us div {
+    text-align: center;
+    width: 20%;
+}
+
+#us h1 {
+    font: 400 28px var(--font);
+    color: #13287e;
+    font-family: "Josefin Sans";
+}
+
+#us hr {
+    display: inline-block;
+    text-align: center;
+    width: 121px;
+    height: 2px;
+    background-color: #ffed50;
+}
+
+/* css section3 end */
+
+/* css section4 start */
+
+#what {
+    height: 600px;
+    background-image: url("/assets/img/Layer\ 6\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#text {
+    text-align: center;
+}
+
+#text .say {
+    align-items: center;
+    font: 400 33px var(--font);
+    color: #13287e;
+    font-family: "Josefin Sans";
+}
+
+#text .lorem {
+    display: inline-block;
+    width: 675px;
+    height: 86px;
+    font: 300 20px var(--font);
+    line-height: 35px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+#text .amanda {
+    font: 400 19px var(--font);
+    line-height: 23px;
+    color: #f7b74d;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+#text .new {
+    font: 300 19px var(--font);
+    line-height: 23px;
+    color: #9e9c96;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+.img {
+    margin: auto;
+    background-color: #eeaf45;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* css section4 end */
+
+
+/* css section5 start */
+
+#plan {
+    position: relative;
+    padding-top: 215px;
+}
+
+#plan h1 {
+    font: 400 33px;
+    color: #13287e;
+    font-family: "Josefin Sans";
+}
+
+#plan p {
+    font: 300 20px var(--font);
+    line-height: 35px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+}
+
+.plans .card {
+    width: 340px;
+}
+
+.plans h1 {
+    font: 400 26px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+.card .start {
+    font: 600 119px var(--font);
+    color: #008aff;
+    font-family: "Josefin Sans";
+}
+
+.card button {
+    margin: auto;
+    width: 219px;
+    height: 67px;
+    border-radius: 34px;
+    background-color: #ffe824;
+    border: none;
+    font: 400 14px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start sup {
+    font: 400 24px var(--font);
+    color: #474747;
+}
+
+.texts {
+    margin: auto;
+    width: 283px;
+    font: 300 17px var(--font);
+    line-height: 35px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+.texts strong {
+    color: #008aff;
+}
+
+/* css section5 end */
+
+/* css section6 start */
+
+#new {
+    position: relative;
+    margin-top: 200px;
+    background-image: url("/assets/img/22.png");
+}
+
+#new img {
+    position: relative;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+
+#new p {
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    top: 10px;
+    font-size: 44px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Josefin Sans";
+    text-align: center;
+    filter: drop-shadow(3.277px 2.294px 1px rgba(0, 0, 0, 0.16));
+}
+
+#new h1 {
+    font:600 68px;
+    color: #13287e;
+    font-family: "Josefin Sans";
+}
+
+.new-text{
+    width: 675px;
+    height: 52px;
+    font:300 20px;
+    line-height: 35px;
+    color: #474747;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
