@@ -25,11 +25,16 @@ header {
     font: 300px 15px var(--font);
     line-height: 35px;
     font-family: "Josefin Sans";
+    text-align: center;
+}
+
+.text a {
+    text-decoration: none;
 }
 
 #logos i {
     padding-left: 15px;
-
+    color: #0089ff;
 }
 
 /* css header end */
@@ -38,7 +43,7 @@ header {
 
 #section-body {
     height: 870px;
-    background-image: url("/assets/img/bg.png");
+    background-image: url("../img/bg.png");
     background-position-x: right;
     background-repeat: no-repeat;
     background-color: #f3faff;
@@ -105,18 +110,13 @@ a:hover {
     font-family: "Josefin Sans";
 }
 
-#section-body1 img {
-    border-radius: 40% 0;
+#section-body1 .photo {
+    border-radius: 100px 0;
 }
-
-/* #vl {
-    width: 1px;
-    height: 866px;
-    background-color: #d8d8de;
-} */
 
 #section-body1 ul {
     margin-left: 20px;
+    text-align: start;
 }
 
 #section-body1 ul li {
@@ -147,6 +147,7 @@ a:hover {
 .like {
     position: absolute;
     bottom: 150px;
+    border-radius: none;
 }
 
 /* css section2 end */
@@ -164,15 +165,17 @@ a:hover {
 #us {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
     padding-left: 20px;
 }
 
 #us div {
     text-align: center;
-    width: 20%;
+    width: 25%;
 }
 
 #us h1 {
+    padding-top: 15px;
     font: 400 28px var(--font);
     color: #13287e;
     font-family: "Josefin Sans";
@@ -192,7 +195,7 @@ a:hover {
 
 #what {
     height: 600px;
-    background-image: url("/assets/img/Layer\ 6\ \(2\).png");
+    background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -212,9 +215,9 @@ a:hover {
     display: inline-block;
     width: 675px;
     height: 86px;
-    font: 300 20px var(--font);
+    font: 350 20px var(--font);
     line-height: 35px;
-    color: #474747;
+    color: white;
     font-family: "Josefin Sans";
 }
 
@@ -227,9 +230,9 @@ a:hover {
 }
 
 #text .new {
-    font: 300 19px var(--font);
+    font: 350 19px var(--font);
     line-height: 23px;
-    color: #9e9c96;
+    color: #f7b74d;
     font-family: "Josefin Sans";
     text-align: center;
 }
@@ -242,6 +245,7 @@ a:hover {
     border-radius: 50%;
     margin-bottom: 30px;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 /* css section4 end */
@@ -251,7 +255,7 @@ a:hover {
 
 #plan {
     position: relative;
-    padding-top: 215px;
+    padding-top: 105px;
 }
 
 #plan h1 {
@@ -270,6 +274,8 @@ a:hover {
 .plans {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+
 }
 
 .plans .card {
@@ -280,6 +286,10 @@ a:hover {
     font: 400 26px;
     color: #474747;
     font-family: "Josefin Sans";
+}
+
+.card {
+    padding-top: 10px;
 }
 
 .card .start {
@@ -299,12 +309,13 @@ a:hover {
     color: #474747;
     font-family: "Josefin Sans";
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .start sup {
     font: 400 24px var(--font);
     color: #474747;
+
 }
 
 .texts {
@@ -330,14 +341,15 @@ a:hover {
     background-image: url("/assets/img/22.png");
 }
 
-#new img {
+#new .flag {
     position: relative;
+    bottom: 15px;
     margin: auto;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
-#new p {
+#new span {
     position: absolute;
     bottom: 5px;
     left: 2px;
@@ -353,17 +365,159 @@ a:hover {
 }
 
 #new h1 {
-    font:600 68px;
+    padding-top: 80px;
+    text-align: center;
+    font: 600 68px var(--font);
     color: #13287e;
     font-family: "Josefin Sans";
 }
 
-.new-text{
-    width: 675px;
-    height: 52px;
-    font:300 20px;
+#new .new-text {
+    font-size: 20px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+.clean {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.clean button {
+    font: 400 14px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 67px;
+    border-radius: 33px;
+    background-color: #ffe824;
+    border: none;
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-bottom: 80px;
+}
+
+.mail {
+    position: absolute;
+    bottom: 105px;
+    left: 480px;
+}
+
+/* css section6 end */
+
+/* css section7 start */
+
+
+#news h1 {
+    text-align: center;
+    padding-top: 100px;
+    font: 400 33px var(--font);
+    color: #13287e;
+    font-family: "Josefin Sans";
+}
+
+#news p {
+    font: 300 20px var(--font);
     line-height: 35px;
     color: #474747;
     font-family: "Josefin Sans";
     text-align: center;
+}
+
+.divs h6 {
+    width: 374px;
+    height: 52px;
+    font: 300 26px var(--font);
+    color: #13287e;
+    font-family: "Josefin Sans";
+}
+
+.divs p {
+    width: 357px;
+    height: 51px;
+    font: 300 20px var(--font);
+    line-height: 35px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+.divs a {
+    font: 300 12px var(--font);
+    line-height: 200px;
+    text-decoration: underline;
+    color: #008aff;
+    font-family: "Josefin Sans";
+}
+
+/* css section7 end */
+
+/* css footer start */
+
+.foot-logo button {
+    font: 400 14px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+    width: 219px;
+    height: 67px;
+    border-radius: 34px;
+    background-color: #ffe824;
+    border: none;
+}
+
+.cont p {
+    width: 216px;
+    height: 160px;
+    font: 300 20px var(--font);
+    line-height: 35px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+.subs p {
+    width: 370px;
+    height: 31px;
+    font: 400 16px var(--font);
+    line-height: 30px;
+    color: #474747;
+    font-family: "Josefin Sans";
+}
+
+.subs input {
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 80px;
+    position: relative;
+}
+
+.send {
+    position: absolute;
+    top: 6032px;
+    right: -140px;
+}
+
+.foot-logos i {
+    padding-right: 30px;
+}
+
+.foot-text {
+    text-align: center;
+    height: 26px;
+    font: 300 12px var(--font);
+    color: #474747;
+    font-family: "Josefin Sans";
+
+}
+
+.copy {
+    text-align: center;
+    font:300 16px var(--font);
+    line-height: 30px;
+    color: #474747;
+    font-family: "Josefin Sans";
 }
